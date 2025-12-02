@@ -1,0 +1,25 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+Assets/Prefabs/Low Poly Woods/
+Assets/Prefabs/Meadow Forest Props/
+Assets/Prefabs/PolitePenguin/
+
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.unityproj
+*.suo
+*.tmp
+*.userprefs
+*.swp
+.DS_Store
