@@ -8,6 +8,12 @@ public class DoorController : MonoBehaviour
 
     private bool isOpen = false;
 
+    /// <summary>
+    /// Subscribes to the light system's light change event to monitor and handle unlock conditions.
+    /// </summary>
+    /// <remarks>This method attaches the <see cref="CheckUnlock"/> method to the <c>OnLightChanged</c> event
+    /// of the light system, if the light system is not null. Ensure that the <c>lightSystem</c> is properly initialized
+    /// before calling this method.</remarks>
     void Start()
     {
         if (lightSystem != null)
